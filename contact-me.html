@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>     
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">Intro</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact-me.html">Contact me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="contactForm">
+                <h1>Contact me for work or general enquiries</h1>
+                <form>
+                    <div class="mb-3">
+                      <label for="clientMail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="clientMail" aria-describedby="emailHelp">
+                      
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientPhone" class="form-label">Phone number</label>
+                      <input type="phone" class="form-control" id="clientPhone">
+                      <div id="emailHelp" class="form-text">We'll never share your email and phone number with anyone else.</div>
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="isClient">
+                      <label class="form-check-label" for="isClient">I would like to work on a project with you.</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
